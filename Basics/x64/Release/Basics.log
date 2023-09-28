@@ -1,0 +1,8 @@
+﻿  Basics.cpp
+  Functions.cpp
+  Main.cpp
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 20 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  Basics.vcxproj -> D:\C++\Basic\Basics\x64\Release\Basics.exe

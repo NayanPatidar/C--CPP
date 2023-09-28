@@ -3,7 +3,7 @@
 
 #include <iostream>
 #include "Functions.cpp"
-#include "TickTakToe.cpp"
+#include "Main.cpp"
 
 using namespace std;
 
