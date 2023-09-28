@@ -11,18 +11,16 @@ public:
 	}
 
 private:
-	char(*arr)[3];
+	char(*arr)[3] = new char[3][3];;
 	bool wonX, wonY;
 
-	void boxCreation() {
-		arr = new char[3][3];
+	void boxCreation() { 
 
-		cout << " | | " << endl;
-		cout << " | | " << endl;
-		cout << " | | " << endl;
-
+		cout << " | | |" << endl;
+		cout << " | | |" << endl;
+		cout << " | | |" << endl;
+		initializeBoard();
 		do {
-
 			playerX();
 			//checkWinner();
 			playerO();
@@ -38,13 +36,23 @@ private:
 		// Check for input position ...
 		for (int i = 0; i < 3; i++) {
 			for (int j = 0; j < 3; j++) {
-				if (i == x && j == y) {
-					arr[i][j] = 'X|';
-					cout << arr[i][j];
+				if (j < 2) {
+					if (i == x && j == y) {
+						arr[i][j] = 'X';
+						cout << "X|";
+					}
+					else {
+						cout << " |";
+					}
 				}
 				else {
-					arr[i][j] = ' |';
-					cout << arr[i][j];
+					if (i == x && j == y) {
+						arr[i][j] = 'X';
+						cout << "X";
+					}
+					else {
+						cout << " ";
+					}
 				}
 			}
 			cout << endl;
@@ -59,18 +67,34 @@ private:
 		// Check for input position ...
 		for (int i = 0; i < 3; i++) {
 			for (int j = 0; j < 3; j++) {
-				if (i == x && j == y) {
-					arr[i][j] = 'O|';
-					cout << arr[i][j];
+				if (j < 2) {
+					if (i == x && j == y) {
+						arr[i][j] = 'O';
+						cout << "O|";
+					}
+					else  {
+						cout << " |";
+					}
 				}
 				else {
-					arr[i][j] = ' |';
-					cout << arr[i][j];
+					if (i == x && j == y) {
+						arr[i][j] = 'O';
+						cout << "O";
+					}
+					else {
+						cout << " ";
+					}
 				}
 			}
 			cout << endl;
 		}
 	}
 
-	
+	void initializeBoard() {
+		for (int i = 0; i < 3; i++) {
+			for (int j = 0; j < 3; j++) {
+				arr[i][j] = ' ';
+			}
+		}
+	}
 };
