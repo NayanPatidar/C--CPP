@@ -1,2 +1,10 @@
-﻿  Basics.cpp
+﻿  TickTakToe.cpp
+D:\C++\Basic\Basics\TickTakToe.cpp(42,18): warning C4305: '=': truncation from 'int' to 'char'
+D:\C++\Basic\Basics\TickTakToe.cpp(42,18): warning C4309: '=': truncation of constant value
+D:\C++\Basic\Basics\TickTakToe.cpp(46,18): warning C4305: '=': truncation from 'int' to 'char'
+D:\C++\Basic\Basics\TickTakToe.cpp(46,18): warning C4309: '=': truncation of constant value
+D:\C++\Basic\Basics\TickTakToe.cpp(63,18): warning C4305: '=': truncation from 'int' to 'char'
+D:\C++\Basic\Basics\TickTakToe.cpp(63,18): warning C4309: '=': truncation of constant value
+D:\C++\Basic\Basics\TickTakToe.cpp(67,18): warning C4305: '=': truncation from 'int' to 'char'
+D:\C++\Basic\Basics\TickTakToe.cpp(67,18): warning C4309: '=': truncation of constant value
   Basics.vcxproj -> D:\C++\Basic\Basics\x64\Debug\Basics.exe
