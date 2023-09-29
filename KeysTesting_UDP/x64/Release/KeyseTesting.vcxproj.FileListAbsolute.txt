@@ -1,0 +1,2 @@
+D:\C++\Basic\KeyseTesting\x64\Release\KeyseTesting.exe
+D:\C++\Basic\KeysTesting_UDP\x64\Release\KeyseTesting.exe
