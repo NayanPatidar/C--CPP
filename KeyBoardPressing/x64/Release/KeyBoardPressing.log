@@ -1,0 +1,5 @@
+﻿  KeyBoardPressing.cpp
+D:\C++\Basic\KeyBoardPressing\KeyBoardPressing.cpp(12,6): error C2513: 'int': no variable declared before '='
+D:\C++\Basic\KeyBoardPressing\KeyBoardPressing.cpp(27,62): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\C++\Basic\KeyBoardPressing\KeyBoardPressing.cpp(39,17): error C2065: 'val': undeclared identifier
+D:\C++\Basic\KeyBoardPressing\KeyBoardPressing.cpp(45,66): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
