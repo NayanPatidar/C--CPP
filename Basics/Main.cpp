@@ -36,7 +36,7 @@ private:
 
 	void playerX() {
 		int x, y;
-		cout << "Player X - It's your turn ! ->";
+		cout << "Player X - It's your turn ! ->\n";
 		cin >> x;
 		cin >> y;
 		// Check for input position ...
@@ -67,7 +67,7 @@ private:
 
 	void playerO() {
 		int x, y;
-		cout << "Player O - It's your turn ! ->";
+		cout << "Player O - It's your turn ! ->\n";
 		cin >> x;
 		cin >> y;
 		// Check for input position ...
