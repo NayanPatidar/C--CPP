@@ -1,5 +1,49 @@
 ﻿  KeyBoardPressing.cpp
-D:\C++\Basic\KeyBoardPressing\KeyBoardPressing.cpp(12,6): error C2513: 'int': no variable declared before '='
-D:\C++\Basic\KeyBoardPressing\KeyBoardPressing.cpp(27,62): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
-D:\C++\Basic\KeyBoardPressing\KeyBoardPressing.cpp(39,17): error C2065: 'val': undeclared identifier
-D:\C++\Basic\KeyBoardPressing\KeyBoardPressing.cpp(45,66): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\C++\Basic\KeyBoardPressing\KeyBoardPressing.cpp(38,66): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\C++\Basic\KeyBoardPressing\KeyBoardPressing.cpp(50,66): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\C++\Basic\KeyBoardPressing\KeyBoardPressing.cpp(64,70): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\C++\Basic\KeyBoardPressing\KeyBoardPressing.cpp(74,70): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\C++\Basic\KeyBoardPressing\KeyBoardPressing.cpp(83,70): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\C++\Basic\KeyBoardPressing\KeyBoardPressing.cpp(93,70): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\C++\Basic\KeyBoardPressing\KeyBoardPressing.cpp(103,70): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\C++\Basic\KeyBoardPressing\KeyBoardPressing.cpp(113,70): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\C++\Basic\KeyBoardPressing\KeyBoardPressing.cpp(117,70): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\C++\Basic\KeyBoardPressing\KeyBoardPressing.cpp(122,70): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\C++\Basic\KeyBoardPressing\KeyBoardPressing.cpp(129,66): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\C++\Basic\KeyBoardPressing\KeyBoardPressing.cpp(135,66): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\C++\Basic\KeyBoardPressing\KeyBoardPressing.cpp(142,66): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\C++\Basic\KeyBoardPressing\KeyBoardPressing.cpp(149,66): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\C++\Basic\KeyBoardPressing\KeyBoardPressing.cpp(156,66): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\C++\Basic\KeyBoardPressing\KeyBoardPressing.cpp(163,66): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\C++\Basic\KeyBoardPressing\KeyBoardPressing.cpp(170,66): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\C++\Basic\KeyBoardPressing\KeyBoardPressing.cpp(177,66): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\C++\Basic\KeyBoardPressing\KeyBoardPressing.cpp(184,66): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\C++\Basic\KeyBoardPressing\KeyBoardPressing.cpp(191,66): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\C++\Basic\KeyBoardPressing\KeyBoardPressing.cpp(199,66): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\C++\Basic\KeyBoardPressing\KeyBoardPressing.cpp(207,66): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\C++\Basic\KeyBoardPressing\KeyBoardPressing.cpp(215,66): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\C++\Basic\KeyBoardPressing\KeyBoardPressing.cpp(223,66): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\C++\Basic\KeyBoardPressing\KeyBoardPressing.cpp(230,66): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\C++\Basic\KeyBoardPressing\KeyBoardPressing.cpp(237,66): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\C++\Basic\KeyBoardPressing\KeyBoardPressing.cpp(244,66): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\C++\Basic\KeyBoardPressing\KeyBoardPressing.cpp(251,66): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\C++\Basic\KeyBoardPressing\KeyBoardPressing.cpp(258,66): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\C++\Basic\KeyBoardPressing\KeyBoardPressing.cpp(265,66): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\C++\Basic\KeyBoardPressing\KeyBoardPressing.cpp(272,66): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\C++\Basic\KeyBoardPressing\KeyBoardPressing.cpp(279,66): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\C++\Basic\KeyBoardPressing\KeyBoardPressing.cpp(286,66): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\C++\Basic\KeyBoardPressing\KeyBoardPressing.cpp(293,66): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\C++\Basic\KeyBoardPressing\KeyBoardPressing.cpp(304,70): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\C++\Basic\KeyBoardPressing\KeyBoardPressing.cpp(308,70): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\C++\Basic\KeyBoardPressing\KeyBoardPressing.cpp(314,66): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\C++\Basic\KeyBoardPressing\KeyBoardPressing.cpp(330,78): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\C++\Basic\KeyBoardPressing\KeyBoardPressing.cpp(336,78): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\C++\Basic\KeyBoardPressing\KeyBoardPressing.cpp(342,78): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\C++\Basic\KeyBoardPressing\KeyBoardPressing.cpp(348,78): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\C++\Basic\KeyBoardPressing\KeyBoardPressing.cpp(354,78): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  Generating code
+  1 of 104 functions ( 1.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    1 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  KeyBoardPressing.vcxproj -> D:\C++\Basic\KeyBoardPressing\x64\Release\KeyBoardPressing.exe
