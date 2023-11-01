@@ -1,0 +1,109 @@
+using System;
+
+namespace HelloWorld
+{
+    public class Ok
+    {
+        bool keepRunning = false;
+        string[,] box;
+        
+        public Ok()
+        {
+            box = new string[3, 3];
+            for (int i = 0; i < 3; i++)
+            {
+                for (int j = 0; j < 3; j++)
+                { 
+                    box[i, j] = "_";
+                }
+            }
+        }
+
+        public void display()
+        {
+        for (int i = 0; i < 3; i++)
+            {
+                for (int j = 0; j < 3; j++)
+                {
+                    Console.Write(box[i, j]);
+                    if (j < 2)
+                    {
+                        Console.Write("|");
+                    }
+                }
+                Console.Write("\n");
+            }
+        }
+        
+        public void X(int m , int n){
+            for (int i = 0; i < 3; i++)
+            {
+                for (int j = 0; j < 3; j++)
+                { 
+                    if (i == m && j == n){
+                        box[i, j] = "X";
+                    }
+                }
+            } 
+        }
+        
+        public void Y(int m , int n){
+            for (int i = 0; i < 3; i++)
+            {
+                for (int j = 0; j < 3; j++)
+                { 
+                    if (i == m && j == n){
+                        box[i, j] = "Y";
+                    }
+                }
+            } 
+        }
+
+
+
+        public static void Main(string[] args)
+        {
+            Console.WriteLine("Welcome To Program");
+            Ok obj = new Ok();
+
+            int firstNumber = 0;
+            int secondNumber = 0;
+            
+             obj.display();
+            Console.WriteLine("\n");
+
+            
+            do
+            {
+            
+            
+            Console.WriteLine("It is X's Turn");
+            string input = Console.ReadLine();
+            string[] parts = input.Split(' '); 
+            if (parts.Length == 2 && int.TryParse(parts[0], out firstNumber) && int.TryParse(parts[1], out secondNumber))
+            {
+                Console.WriteLine("First number: " + firstNumber);
+                Console.WriteLine("Second number: " + secondNumber);
+            }
+            obj.X(firstNumber, secondNumber);
+            obj.display();
+            Console.Write("\n");
+            
+            Console.WriteLine("It is Y's Turn");
+            string inputY = Console.ReadLine();
+            string[] partsY = inputY.Split(' '); 
+            if (partsY.Length == 2 && int.TryParse(partsY[0], out firstNumber) && int.TryParse(partsY[1], out secondNumber))
+            {
+                Console.WriteLine("First number: " + firstNumber);
+                Console.WriteLine("Second number: " + secondNumber);
+            }
+            obj.Y(firstNumber, secondNumber);
+            obj.display();
+            Console.Write("\n");
+
+
+             
+            } while (!obj.keepRunning);
+        }
+    }
+}
