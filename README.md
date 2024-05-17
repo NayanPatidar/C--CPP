@@ -1,1 +1,1 @@
-Having the Codes Realated to C++ and C
+Having the Codes Related to C++ and C
